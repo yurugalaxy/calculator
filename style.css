@@ -27,3 +27,47 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 /* END CSS RESET */
+
+* {
+        outline: 1px solid red;
+}
+
+body {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; 
+        align-items: center;
+}
+
+.mZero {
+        min-width: 300px;
+}
+
+.CalcNums {
+        width: 300px;
+        display: flex;
+        flex-wrap: wrap-reverse;
+}
+
+.mNum {
+        width: 80px;
+        height: 50px;
+}
+
+.Content {
+        flex-grow: 1;
+}
+
+.CalcButtons {
+        display: flex;
+}
+
+.CalcBody {
+        display: flex;
+        flex-direction: column;
+}
+
+.CalcDisplay {
+        font-size: 24px;
+}
